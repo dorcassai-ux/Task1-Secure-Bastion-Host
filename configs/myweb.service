@@ -1,0 +1,14 @@
+[Unit]
+Description=Elevvo Task 1 Web Service
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+WorkingDirectory=/opt/myweb
+ExecStart=/usr/bin/python3 -m http.server 8000 --directory /opt/myweb
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
