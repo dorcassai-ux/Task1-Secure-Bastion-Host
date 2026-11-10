@@ -57,7 +57,6 @@ sudo ss -tulnp | grep :22                         # check where SSH is listening
 ```
 .
 ├── README.md                  # this summary
-├── FULL-REPORT.md             # step-by-step documentation with every command explained
 ├── Task1-Secure-Bastion-Host-Documentation.docx   # Word version of the full report
 ├── configs/
 │   ├── myweb.service          # systemd unit file for the web service
@@ -67,8 +66,8 @@ sudo ss -tulnp | grep :22                         # check where SSH is listening
 
 ## Full documentation
 
-- [Full report (Markdown)](FULL-REPORT.md) covers each step with a description, the commands used and explained, screenshots and notes, plus the problems I ran into
-- [Full report (Word)](Task1-Secure-Bastion-Host-Documentation.docx)
+- [Full report (PDF)](Task1-Secure-Bastion-Host-Documentation.pdf) covers each step with a description, the commands used and explained, screenshots and notes, plus the problems I ran into
+
 
 ## What I learned
 
